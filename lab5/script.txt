@@ -1,0 +1,4 @@
+info
+execute_script C:\Users\ronya\IdeaProjects\Proga_5-8\script1.txt
+info
+info
