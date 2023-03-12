@@ -238,5 +238,16 @@ public class ParserXML {
 
     }
 
+    public void clear_file(){
+        try(PrintWriter printWriter = new PrintWriter(new FileWriter(f))){
+            printWriter.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<HumanBeing>\n");
+            printWriter.append("</HumanBeing>");
+            printWriter.flush();
+        }
+        catch (IOException ex){
+            ex.getStackTrace();
+        }
+    }
+
 
 }

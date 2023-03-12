@@ -4,6 +4,7 @@ import src.Converter.*;
 import src.Data.*;
 
 import src.setVariables.*;
+
 import java.io.*;
 
 import java.nio.charset.StandardCharsets;
@@ -15,9 +16,9 @@ import java.util.*;
  * This class contains interactive mode method to work with commands
  *
  * @author Roman Kobelev
- * @since 14.02.2023
  * @version 69
  * @see HumanBeing
+ * @since 14.02.2023
  */
 public class Linkedlist {
     /**
@@ -38,6 +39,7 @@ public class Linkedlist {
     private final ZonedDateTime indate;
     /**
      * ParserXML used for read and write data to file
+     *
      * @see ParserXML
      */
     private ParserXML parserXML;
@@ -57,14 +59,14 @@ public class Linkedlist {
     /**
      * Constructor of {@code Linkedlist} where we initialize date of creation of collection
      * Also checking file and loading data from xml file
+     *
      * @param path path to the file
      * @see ParserXML
      */
-    public Linkedlist(String path, String path1){
-        try{
+    public Linkedlist(String path, String path1) {
+        try {
             if (path == null) throw new FileNotFoundException();
-        }
-        catch (FileNotFoundException ex){
+        } catch (FileNotFoundException ex) {
             System.out.println("Введите путь до файла в виде аргумента!");
             System.exit(1);
         }
@@ -75,21 +77,23 @@ public class Linkedlist {
 
         parserXML = new ParserXML(path);
         load();
-
         boolean eq = old_humans.containsAll(humans) && humans.containsAll(old_humans);
-        if (getAnswer(eq)){
-            humans = old_humans;
-            save();
-            System.out.println("Несохранённые данные востановлены!");
+        if (old_humans.size() != 0) {
+            if (getAnswer(eq)) {
+                humans = old_humans;
+                save();
+                System.out.println("Несохранённые данные востановлены!");
+            } else silent_save();
         }
-        else silent_save();
+
     }
+
     private Boolean getAnswer(boolean bool) {
-        if (!bool){
+        if (!bool) {
             System.out.println("Хотите лы вы сохранить несохранённые изменения?");
             Scanner scanner = new Scanner(System.in);
             String line = scanner.nextLine();
-            switch (line){
+            switch (line) {
                 case "Да":
                     return true;
                 case "Нет":
@@ -102,10 +106,11 @@ public class Linkedlist {
         }
         return false;
     }
+
     /**
      * Used to print list of commands
      */
-    public void help(){
+    public void help() {
         System.out.println("info : вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.)");
         System.out.println("show : вывести в стандартный поток вывода все элементы коллекции в строковом представлении");
         System.out.println("add {element} : добавить новый элемент в коллекцию");
@@ -126,7 +131,7 @@ public class Linkedlist {
     /**
      * Used to print information about collection
      */
-    public void info(){
+    public void info() {
         System.out.println("Тип коллекции: " + humans.getClass() + "\n"
                 + "Дата инициализации: " + indate + "\n"
                 + "Размер коллекции: " + humans.size() + "");
@@ -143,14 +148,19 @@ public class Linkedlist {
     /**
      * Used to exit program without saving our collection in file
      */
-    public void exit(){
+    public void exit() {
         silent_load();
+        clear();
+        load();
+        System.out.println(humans);
+        System.out.println(old_humans);
         boolean eq = old_humans.containsAll(humans) && humans.containsAll(old_humans);
-        if (getAnswer(eq)){
+        if (getAnswer(eq)) {
             humans = old_humans;
             save();
             silent_save();
         }
+        parserXML1.clear_file();
         System.exit(1);
     }
 
@@ -163,18 +173,15 @@ public class Linkedlist {
         humans.add(humanBeing);
         humans.sort(comparator);
         System.out.println("Ваш элемент успешно добавлен в коллекцию!");
-        silent_save();
     }
 
     /**
      * Used to save collection in file
      */
-    public void save(){
-        try{
+    public void save() {
+        try {
             parserXML.writeData(humans);
-
-        }
-        catch(Exception ex){
+        } catch (Exception ex) {
             System.out.println("Возникла непредвиденная ошибка! Файл не сохранился");
             System.exit(1);
         }
@@ -182,19 +189,20 @@ public class Linkedlist {
 
 
     }
-    private void silent_save(){
-        try{
+
+    private void silent_save() {
+        try {
             parserXML1.writeData(humans);
-        }
-        catch(Exception ex){
+        } catch (Exception ex) {
             System.out.println("Возникла непредвиденная ошибка! Файл не сохранился");
             System.exit(1);
         }
     }
+
     /**
      * Used to clear collection
      */
-    public void clear(){
+    public void clear() {
         humans.clear();
         System.out.println("Коллекция успешна очищена!");
         silent_save();
@@ -203,23 +211,22 @@ public class Linkedlist {
     /**
      * Used to load data from file to collection
      */
-    private void load(){
-        try{
+    private void load() {
+        try {
             parserXML.parseData(humans);
 
-        }
-        catch(Exception ex){
+        } catch (Exception ex) {
             System.out.println("Возникла непредвиденная ошибка! Файл не загрузился!");
             System.exit(1);
         }
         System.out.println("Файл успешно загружен в коллекцию!");
     }
-    private void silent_load(){
-        try{
+
+    private void silent_load() {
+        try {
             parserXML1.parseData(old_humans);
 
-        }
-        catch(Exception ex){
+        } catch (Exception ex) {
             System.out.println("Возникла непредвиденная ошибка! Файл не загрузился!");
             System.exit(1);
         }
@@ -227,13 +234,13 @@ public class Linkedlist {
 
     /**
      * Used to remove an element by index
+     *
      * @param index
      */
-    public void remove_by_id(int index){
-        try{
+    public void remove_by_id(int index) {
+        try {
             humans.remove(index);
-        }
-        catch(Exception ex){
+        } catch (Exception ex) {
             System.out.println("Возникла непредвиденная ошибка! Элемент не удалён!");
         }
         System.out.println(index + "-й элемент успешно удалён!");
@@ -242,20 +249,20 @@ public class Linkedlist {
 
     /**
      * Used to update an element by id
+     *
      * @param id
      */
-    public void update(int id){
+    public void update(int id) {
         HumanBeing humanBeing = null;
-        for(int i=0;i<humans.size();i++){
-            if(id == humans.get(i).getId()){
-               humanBeing = humans.get(i);
+        for (int i = 0; i < humans.size(); i++) {
+            if (id == humans.get(i).getId()) {
+                humanBeing = humans.get(i);
             }
         }
-        if (humanBeing != null){
+        if (humanBeing != null) {
             setData2Object(humanBeing);
             System.out.println("Ваш элемент успешно обновлён!");
-        }
-        else{
+        } else {
             System.out.println("Объекта по вашему id не существует в коллекции!");
         }
 
@@ -264,27 +271,27 @@ public class Linkedlist {
     /**
      * Used to print sum of impact speed of elements in collection
      */
-    public void sum_of_impact_speed(){
+    public void sum_of_impact_speed() {
         int sum = 0;
-        for (int i=0;i< humans.size();i++){
-            sum+=humans.get(i).getImpactSpeed();
+        for (int i = 0; i < humans.size(); i++) {
+            sum += humans.get(i).getImpactSpeed();
         }
         System.out.println("Сумма значений поля impactSpeed для всех элементов коллекции: " + sum);
     }
 
     /**
      * Used to execute script
+     *
      * @param path path to file
      */
-    public void execute_script(String path){
+    public void execute_script(String path) {
         File script = new File(path);
-        char[] array = new char[(int)script.length()];
-        try (InputStreamReader isr = new InputStreamReader( new FileInputStream(script), StandardCharsets.UTF_8)) {
+        char[] array = new char[(int) script.length()];
+        try (InputStreamReader isr = new InputStreamReader(new FileInputStream(script), StandardCharsets.UTF_8)) {
             isr.read(array);
             String readedFile = String.valueOf(array);
             script_input = readedFile.split("\n");
-        }
-        catch (IOException ex){
+        } catch (IOException ex) {
             ex.getStackTrace();
             System.out.println("Возникла IOException! Скрипт не считан!");
         }
@@ -293,74 +300,79 @@ public class Linkedlist {
 
     /**
      * Used to remove elements in collection whose id is greater than specified
+     *
      * @param id
      */
-    public void remove_greater(int id){
+    public void remove_greater(int id) {
         int counting = 0;
-        for (int i = 0;i < humans.size();i++){
-            if (humans.get(i).getId() > id){
+        for (int i = 0; i < humans.size(); i++) {
+            if (humans.get(i).getId() > id) {
                 counting++;
                 humans.remove(i);
             }
         }
-        System.out.println("Удалено "+ counting + " элементов, id которых был больше "+id+"!");
+        System.out.println("Удалено " + counting + " элементов, id которых был больше " + id + "!");
     }
+
     /**
      * Used to remove elements in collection whose id is lower than specified
+     *
      * @param id
      */
-    public void remove_lower(int id){
+    public void remove_lower(int id) {
         int counting = 0;
-        for (int i = 0;i < humans.size();i++){
-            if (humans.get(i).getId() < id){
+        for (int i = 0; i < humans.size(); i++) {
+            if (humans.get(i).getId() < id) {
                 counting++;
                 humans.remove(i);
             }
         }
-        System.out.println("Удалено "+ counting + " элементов, id которых был меньше "+id+"!");
+        System.out.println("Удалено " + counting + " элементов, id которых был меньше " + id + "!");
     }
 
     /**
      * Used to remove elements in collection whose status of car greater than specified
+     *
      * @param cool
      */
-    public void count_greater_than_car(boolean cool){
+    public void count_greater_than_car(boolean cool) {
         int counting = 0;
-        if (!cool){
-            for (int i = 0;i < humans.size();i++){
-                if (humans.get(i).getCar().getCool()){
+        if (!cool) {
+            for (int i = 0; i < humans.size(); i++) {
+                if (humans.get(i).getCar().getCool()) {
                     counting++;
                 }
             }
         }
-        System.out.println("Количество элементов, значение поля car которых больше "+cool+" : "+counting);
+        System.out.println("Количество элементов, значение поля car которых больше " + cool + " : " + counting);
     }
 
     /**
      * Used to insert a new element by index
+     *
      * @param index
      */
-    public void insert_at(int index){
+    public void insert_at(int index) {
         HumanBeing humanBeing = new HumanBeing();
         setData2Object(humanBeing);
         try {
             humans.add(index, humanBeing);
-        }
-        catch(Exception ex){
+        } catch (Exception ex) {
             ex.getStackTrace();
-            System.out.println("Возникла ошибка при добавлении элемента на "+ index+"-ю позицию!");
+            System.out.println("Возникла ошибка при добавлении элемента на " + index + "-ю позицию!");
         }
         humans.sort(comparator);
-        System.out.println("Ваш элемент успешно добавлен в коллекцию на "+index+" позицию!");
+        System.out.println("Ваш элемент успешно добавлен в коллекцию на " + index + " позицию!");
     }
 
     /**
-     *Used to print items whose soundtrackName field value starts with the specified substring
+     * Used to print items whose soundtrackName field value starts with the specified substring
+     *
      * @param soundtrackName
      */
-    public void filter_starts_with_soundtrack_name(String soundtrackName){
-        for (int i=0;i< humans.size();i++){
-            if (humans.get(i).getSoundtrackName().contains(soundtrackName)){
+    public void filter_starts_with_soundtrack_name(String soundtrackName) {
+        for (int i = 0; i < humans.size(); i++) {
+            if (humans.get(i).getSoundtrackName().contains(soundtrackName)) {
                 System.out.println(humans.get(i).toString());
             }
         }
@@ -368,9 +380,10 @@ public class Linkedlist {
 
     /**
      * Used to set values of fields to {@code HumanBeing} object
+     *
      * @param humanBeing
      */
-    private void setData2Object(HumanBeing humanBeing){
+    private void setData2Object(HumanBeing humanBeing) {
         humanBeing.setCreationDate();
         humanBeing.setName(SetName.initializeName());
         Coordinates coordinates = new Coordinates();
@@ -391,31 +404,31 @@ public class Linkedlist {
     /**
      * @return lines of script
      */
-    public static String[] getScript_input(){
+    public static String[] getScript_input() {
         return script_input;
     }
 
     /**
      * Starts interactive mode to manage with command
+     *
      * @param developer
      */
-    public void interactive_mod(Developer developer){
+    public void interactive_mod(Developer developer) {
         count = 0;
-        while (true){
+        while (true) {
             String[] line;
-            if (count < script_input.length && script_input.length != 0){
+            if (count < script_input.length && script_input.length != 0) {
                 line = script_input[count].split(" ");
                 count++;
-                if (count == script_input.length){
+                if (count == script_input.length) {
                     count = 0;
                     script_input = new String[]{};
                 }
-            }
-            else{
+            } else {
                 Scanner scanner = new Scanner(System.in);
                 line = scanner.nextLine().split(" ");
             }
-            switch (line[0].trim()){
+            switch (line[0].trim()) {
                 case "add":
                     developer.add();
                     silent_save();
@@ -433,7 +446,8 @@ public class Linkedlist {
                     developer.show();
                     break;
                 case "save":
-                    developer.save();;
+                    developer.save();
+                    ;
                     break;
                 case "clear":
                     developer.clear();
@@ -463,10 +477,9 @@ public class Linkedlist {
                     silent_save();
                     break;
                 case "count_greater_than_car":
-                    try{
+                    try {
                         developer.count_greater_than_car(Boolean.parseBoolean(line[1]));
-                    }
-                    catch (Exception ex){
+                    } catch (Exception ex) {
                         ex.getStackTrace();
                         System.out.println("Неверное значение для типа boolean!");
                     }
@@ -479,7 +492,7 @@ public class Linkedlist {
                     developer.filter_starts_with_soundtrack_name(line[1].trim());
                     break;
                 default:
-                    System.out.println("Данная система не знает команды "+line[0].trim()+"!\nДля списка команд впишите 'help'");
+                    System.out.println("Данная система не знает команды " + line[0].trim() + "!\nДля списка команд впишите 'help'");
             }
         }
     }

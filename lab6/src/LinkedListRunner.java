@@ -35,4 +35,3 @@ public class LinkedListRunner{
         linkedlist.interactive_mod(developer);
     }
 }
-//TODO удалять файл если сохранил

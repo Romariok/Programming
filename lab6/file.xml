@@ -1,83 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HumanBeing>
 	<humanbeing>
-		<id>219</id>
-		<name>&amp;&amp;&lt;&lt;&gt;fff</name>
+		<id>168</id>
+		<name>befbe</name>
 		<coordinates>
-			<x>151</x>
-			<y>-515</y>
+			<x>0</x>
+			<y>14</y>
 		</coordinates>
-		<creationDate>2023-02-27T17:46:57.926921200+03:00[Europe/Moscow]</creationDate>
-		<realHero>false</realHero>
-		<hasToothpick>false</hasToothpick>
-		<impactSpeed>572</impactSpeed>
-		<soundtrackName>ggg</soundtrackName>
-		<weaponType>Rifle</weaponType>
-		<mood>Frenzy</mood>
-		<car>false</car>
-	</humanbeing>
-	<humanbeing>
-		<id>257</id>
-		<name>&lt;&gt;&gt;&gt;&lt;&gt;&lt;&gt;&lt;&amp;## 1111gfgg</name>
-		<coordinates>
-			<x>1</x>
-			<y>15</y>
-		</coordinates>
-		<creationDate>2023-02-27T17:40:52.519593+03:00[Europe/Moscow]</creationDate>
+		<creationDate>2023-03-12T22:29:39.411476600+03:00[Europe/Moscow]</creationDate>
 		<realHero>true</realHero>
 		<hasToothpick>false</hasToothpick>
-		<impactSpeed>115</impactSpeed>
-		<soundtrackName>&lt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;@51515gv</soundtrackName>
+		<impactSpeed>14</impactSpeed>
+		<soundtrackName>g2gfgeg</soundtrackName>
 		<weaponType>Rifle</weaponType>
-		<mood>Frenzy</mood>
-		<car>false</car>
-	</humanbeing>
-	<humanbeing>
-		<id>414</id>
-		<name>151</name>
-		<coordinates>
-			<x>-51515</x>
-			<y>-1</y>
-		</coordinates>
-		<creationDate>2023-02-27T17:48:00.797621100+03:00[Europe/Moscow]</creationDate>
-		<realHero>false</realHero>
-		<hasToothpick>false</hasToothpick>
-		<impactSpeed>572</impactSpeed>
-		<soundtrackName>?Б&lt;&amp;</soundtrackName>
-		<weaponType>Shotgun</weaponType>
-		<mood>Frenzy</mood>
-		<car>false</car>
-	</humanbeing>
-	<humanbeing>
-		<id>810</id>
-		<name>&lt;&lt;&lt; .&gt;Roman&gt;&quot;</name>
-		<coordinates>
-			<x>14</x>
-			<y>-41</y>
-		</coordinates>
-		<creationDate>2023-02-15T14:38:41.637247600+03:00[Europe/Moscow]</creationDate>
-		<realHero>true</realHero>
-		<hasToothpick>true</hasToothpick>
-		<impactSpeed>141</impactSpeed>
-		<soundtrackName>&lt;garad&gt;</soundtrackName>
-		<weaponType>Shotgun</weaponType>
-		<mood>Frenzy</mood>
+		<mood>Gloom</mood>
 		<car>true</car>
 	</humanbeing>
 	<humanbeing>
-		<id>897</id>
-		<name>&lt;Bgg&gt; \  | \ff &lt;\Bgg&gt; &lt;|Bgg&gt;</name>
+		<id>512</id>
+		<name>gg</name>
 		<coordinates>
-			<x>3</x>
+			<x>1</x>
 			<y>1</y>
 		</coordinates>
-		<creationDate>2023-03-01T10:15:06.538277900+03:00[Europe/Moscow]</creationDate>
+		<creationDate>2023-03-12T22:02:04.332930500+03:00[Europe/Moscow]</creationDate>
 		<realHero>true</realHero>
-		<hasToothpick>true</hasToothpick>
-		<impactSpeed>572</impactSpeed>
-		<soundtrackName>Delo</soundtrackName>
+		<hasToothpick>false</hasToothpick>
+		<impactSpeed>15</impactSpeed>
+		<soundtrackName>ппп</soundtrackName>
 		<weaponType>Rifle</weaponType>
-		<mood>Gloom</mood>
-		<car>false</car>
+		<mood>Frenzy</mood>
+		<car>true</car>
 	</humanbeing>
 </HumanBeing>
