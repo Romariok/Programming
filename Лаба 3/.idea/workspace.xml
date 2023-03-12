@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75477101-8311-4104-9b49-58d146542f5d" name="Changes" comment="final commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2b9e3cbb670099fda075630d9550b1e3142ffe5a" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HiVIymB5LTDd06N9jqVR2VwZYh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab3_proga" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main1" />
+      <module name="Lab3_proga" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75477101-8311-4104-9b49-58d146542f5d" name="Changes" comment="final commit" />
+      <created>1668767818850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668767818850</updated>
+      <workItem from="1668767821068" duration="10941000" />
+      <workItem from="1669233916792" duration="607000" />
+      <workItem from="1669750848742" duration="704000" />
+      <workItem from="1669801388955" duration="4187000" />
+      <workItem from="1669827307826" duration="10089000" />
+      <workItem from="1669875835628" duration="2740000" />
+      <workItem from="1669892238950" duration="4211000" />
+      <workItem from="1669898097307" duration="189000" />
+      <workItem from="1669977349803" duration="10112000" />
+      <workItem from="1670087283804" duration="47000" />
+      <workItem from="1670960312766" duration="3895000" />
+      <workItem from="1670966654118" duration="174000" />
+      <workItem from="1671033173678" duration="10734000" />
+      <workItem from="1671103613254" duration="12260000" />
+      <workItem from="1671118789169" duration="631000" />
+      <workItem from="1671133507520" duration="3850000" />
+      <workItem from="1671177147947" duration="3348000" />
+      <workItem from="1671186213619" duration="5669000" />
+      <workItem from="1671200994367" duration="1743000" />
+      <workItem from="1671204848715" duration="1218000" />
+      <workItem from="1671206144371" duration="614000" />
+    </task>
+    <task id="LOCAL-00001" summary="more interaction between classes has been added">
+      <created>1669984130103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669984130103</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deleted garbage imports">
+      <created>1669984389680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669984389680</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added numbers of passengers in spaceship">
+      <created>1669985843469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669985843469</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added more properties">
+      <created>1669985988572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669985988572</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adapt od classes to new story">
+      <created>1671119333448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671119333448</updated>
+    </task>
+    <task id="LOCAL-00006" summary="4 laba">
+      <created>1671119392784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671119392784</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added interface">
+      <created>1671135121458</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671135121458</updated>
+    </task>
+    <task id="LOCAL-00008" summary="more interactions">
+      <created>1671135164511</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671135164511</updated>
+    </task>
+    <task id="LOCAL-00009" summary="last commit">
+      <created>1671192802017</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671192802017</updated>
+    </task>
+    <task id="LOCAL-00010" summary="final commit">
+      <created>1671204355942</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671204355942</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="more interaction between classes has been added" />
+    <MESSAGE value="deleted garbage imports" />
+    <MESSAGE value="added numbers of passengers in spaceship" />
+    <MESSAGE value="added more properties" />
+    <MESSAGE value="adapt od classes to new story" />
+    <MESSAGE value="4 laba" />
+    <MESSAGE value="added interface" />
+    <MESSAGE value="more interactions" />
+    <MESSAGE value="last commit" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+  </component>
+</project>
