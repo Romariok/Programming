@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a3b0bdc-1a3c-4270-9738-c4e1c3acf0e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../lab2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab2/lab1_pokemon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/lab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/Lab3_proga.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/Lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab4/Lab3_proga.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Lab4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/final/final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/final/final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/yesno/yesno.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/yesno/yesno.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2MvM82KBTaNi3jfJll0FxTvqsAJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ronya/Programming/lab5"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a3b0bdc-1a3c-4270-9738-c4e1c3acf0e7" name="Changes" comment="" />
+      <created>1678643440060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678643440060</updated>
+      <workItem from="1678643441169" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
