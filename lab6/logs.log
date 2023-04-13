@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-13T12:01:16.298352700Z</date>
+  <millis>1681387276298</millis>
+  <nanos>352700</nanos>
+  <sequence>0</sequence>
+  <logger>server.Log</logger>
+  <level>INFO</level>
+  <class>server.Connections.Connection</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Server started datagram channel: sun.nio.ch.DatagramChannelImpl@6ad5c04e</message>
+</record>
+<record>
+  <date>2023-04-13T12:01:30.272158700Z</date>
+  <millis>1681387290272</millis>
+  <nanos>158700</nanos>
+  <sequence>1</sequence>
+  <logger>server.Log</logger>
+  <level>INFO</level>
+  <class>Command.CommandExecutor</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>Received command Command.Commands.Info@6615435c from /172.28.25.184:56568</message>
+</record>
+<record>
+  <date>2023-04-13T12:01:30.279287300Z</date>
+  <millis>1681387290279</millis>
+  <nanos>287300</nanos>
+  <sequence>2</sequence>
+  <logger>server.Log</logger>
+  <level>INFO</level>
+  <class>Command.CommandExecutor</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>Sending 1 chunks to /172.28.25.184:56568</message>
+</record>
+<record>
+  <date>2023-04-13T12:01:32.278196500Z</date>
+  <millis>1681387292278</millis>
+  <nanos>196500</nanos>
+  <sequence>3</sequence>
+  <logger>server.Log</logger>
+  <level>INFO</level>
+  <class>Command.CommandExecutor</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>Received command Command.Commands.Show@12843fce from /172.28.25.184:56568</message>
+</record>
+<record>
+  <date>2023-04-13T12:01:32.279189400Z</date>
+  <millis>1681387292279</millis>
+  <nanos>189400</nanos>
+  <sequence>4</sequence>
+  <logger>server.Log</logger>
+  <level>INFO</level>
+  <class>Command.CommandExecutor</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>Sending 1 chunks to /172.28.25.184:56568</message>
+</record>
+</log>
