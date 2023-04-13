@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34984b14-202f-4d71-9038-34df166a859b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/client.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/server.xml" beforeDir="false" />
@@ -11,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proga_6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Command/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/CommandExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Command/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/CommandFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Command/Commands/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/Commands/Add.java" afterDir="false" />
@@ -48,13 +52,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.server">
     <configuration name="client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="client.ClientMain" />
@@ -85,7 +91,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681390841256</updated>
-      <workItem from="1681390842522" duration="129000" />
+      <workItem from="1681390842522" duration="255000" />
+      <workItem from="1681391623623" duration="367000" />
+      <workItem from="1681392044629" duration="233000" />
     </task>
     <servers />
   </component>
@@ -97,7 +105,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
