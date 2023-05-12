@@ -6,3 +6,4 @@
 ![laba3](https://user-images.githubusercontent.com/82483966/233792686-1020205b-5f06-41a9-99e3-15b6880f4b16.png)
 ![laba4](https://user-images.githubusercontent.com/82483966/233792665-c216fd0c-edcf-4a55-94bb-526b1bb461d0.png)
 ![laba6](https://user-images.githubusercontent.com/82483966/233792604-43471bdb-3d4d-4523-bebf-17a12cbfabd9.png)
+![7 laba](https://github.com/Romariok/Programming/assets/82483966/a36491a0-c557-4125-8ec4-41b321717d58)
