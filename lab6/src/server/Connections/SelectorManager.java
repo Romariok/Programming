@@ -18,7 +18,7 @@ import static Command.CommandExecutor.setChannel;
 import static Command.CommandExecutor.execute;
 import static server.Connections.Connection.BUFFER_SIZE;
 
-public class SelectorManager {
+public class  SelectorManager {
     private static final Selector selector = Connection.getSelector();
     public static void run() throws IOException {
         Map<InetSocketAddress, ByteArrayOutputStream> Streams = new HashMap<>();
